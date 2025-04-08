@@ -48,10 +48,10 @@ main {
 /* 🔴 CSS Syntax Error here 👇 */
 .forms {
   width: 100%;
-     max-width: 964px;
+  max-width: 964px;
   margin: 0 auto;
   display: flex;
-   gap: 30px;
+  gap: 30px;
 }
 
 i {
@@ -106,11 +106,11 @@ i {
 .form-input-group input {
   display: flex;
   gap: 10px;
-      justify-content: space-between;
+  justify-content: space-between;
   padding: 12px;
   background: linear-gradient(45deg, #1e2338, #191e34);
   border: 1px solid #282d43;
-    borderRadius: 5px;
+  border-radius: 5px;
 }
 
 .option-item-name
@@ -378,5 +378,5 @@ footer ul a {
 
 /* 🔴 CSS property name Error here 👇 */
 footer ul li span a {
-  colorrrrr: rgb(218, 82, 82);
+  color: rgb(218, 82, 82);
 }
