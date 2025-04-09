@@ -110,7 +110,7 @@ i {
 }
 
 /* 🔴 Property name Error here 👇 */
-.label-content-wrapper
+.label-content-wrapper,
 .form-input-group input {
   display: flex;
   gap: 10px;
@@ -121,15 +121,15 @@ i {
   border-radius: 5px;
 }
 
-.option-item-name
+.option-item-name,
 .review-author-name {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
 
-.option-item-name .name
-.review-author-name .name
+.option-item-name .name,
+.review-author-name .name,
 .order-table .item .label {
   text-transform: capitalize;
 }
