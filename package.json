@@ -27,7 +27,11 @@
   },
   "dependencies": {
     "@playwright/test": "^1.49.1",
+<<<<<<< HEAD
     "live-serve": "^0.0.0",
+=======
+    "live": "^0.1.19",
+>>>>>>> 65bd1045ad84119c02746c1ead5f8f3b36745bbd
     "live-server": "^1.2.2"
   }
 }
