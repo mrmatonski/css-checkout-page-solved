@@ -53,4 +53,7 @@ For the styles.css file:
   - There are commented out hints for you to find the CSS rules with incorrect syntax
   - When running tests, the failed test message contains the CSS file line number of the rule that was tested.
 
+
+  When I try to intall the playwright, I get an error. 
+
   
