@@ -37,11 +37,11 @@ h2 {
 }
 
 /* 🔴 CSS Syntax Error here 👇 */
-<<<<<<< HEAD
-main  {
-=======
+
+
+
 main {
->>>>>>> 65bd1045ad84119c02746c1ead5f8f3b36745bbd
+
   width: 100%;
   padding-top: 60px;
   display: flex;
@@ -55,11 +55,8 @@ main {
   max-width: 964px;
   margin: 0 auto;
   display: flex;
-<<<<<<< HEAD
-   gap: 30px;
-=======
   gap: 30px;
->>>>>>> 65bd1045ad84119c02746c1ead5f8f3b36745bbd
+
 }
 
 i {
@@ -90,7 +87,7 @@ i {
 .form-control,
 .form-input-group {
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
   gap: 30px;
 }
 
@@ -128,20 +125,18 @@ i {
   gap: 4px;
 }
 
-.option-item-name .name,
-.review-author-name .name,
-.order-table .item .label {
+.option-item-name, .name,
+.review-author-name, .name,
+.order-table, .item, .label {
   text-transform: capitalize;
 }
 
 /* 🔴 CSS Syntax Error here 👇 */
-.option-item-name .hint,
-.review-author-name .hint,
-<<<<<<< HEAD
-.form-input-group label {
-=======
-.form-input-group .label {
->>>>>>> 65bd1045ad84119c02746c1ead5f8f3b36745bbd
+.option-item-name, .hint,
+.review-author-name, .hint,
+.form-input-group, label,
+.form-input-group, .label {
+
   font-size: 12px;
   color: #b6b8c0;
 }
@@ -153,7 +148,7 @@ i {
   gap: 16px;
 }
 
-.option-item-selected .price:before {
+.option-item-selected, .price:before {
   content: '$ ';
 }
 
@@ -204,11 +199,11 @@ label {
   bottom: 0;
   left: 0;
   right: 0;
-<<<<<<< HEAD
+              
   background-image: url('/assets/backgrounds/review-bg.png');
-=======
+
   background-image: url(/assets/backgrounds/review-bg.png);
->>>>>>> 65bd1045ad84119c02746c1ead5f8f3b36745bbd
+
   background-size: cover;
 }
 
